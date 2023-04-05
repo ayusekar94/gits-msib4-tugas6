@@ -1,66 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# #06 | Tugas Content Management System (CMS)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Name: ``` Ananda Ayu Sekar Wiranti ```
 
-## About Laravel
+Kampus: ``` Politeknik Negeri Malang ```
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tools
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- laravel
+- Boostrap
+- Jquery
+- BoostrapIcon
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Cara Menjalankan
 
-## Learning Laravel
+1. Clone Repo
+``` 
+git clone https://github.com/ayusekar94/gits-msib4-tugas6
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. Copy env dari env.example
+3. Generate key
+``` 
+php artisan key:generate
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+4. Mingrate tabel
+``` 
+php artisan migrate:fresh --seed
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Demo
 
-## Laravel Sponsors
+* Login
+![Screenshot (844)](https://user-images.githubusercontent.com/92219304/229952131-e2e29239-4452-4473-a519-5960c0d76d87.png) <br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* Register
+![Screenshot (845)](https://user-images.githubusercontent.com/92219304/229952140-3728c794-6de4-4f27-8bfd-e04b6fb1770e.png) <br>
 
-### Premium Partners
+* Dashbord
+![Screenshot (837)](https://user-images.githubusercontent.com/92219304/229952328-92c4b01f-734e-43c2-84ac-7ef27ae1b596.png)
+- crud Category
+![Screenshot (838)](https://user-images.githubusercontent.com/92219304/229952348-18be1522-5659-4e83-afc9-68c18d134f69.png)
+- crud Product
+![Screenshot (839)](https://user-images.githubusercontent.com/92219304/229952364-96025c8b-1fbf-4220-8081-cc50f2339fad.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+* Home
+![Screenshot (841)](https://user-images.githubusercontent.com/92219304/229952515-7c0700e1-cc5d-4792-a3f8-552cccda2af7.png)
+- Detail 
+![Screenshot (842)](https://user-images.githubusercontent.com/92219304/229952530-8d028023-a5dc-4e63-8dce-b073f5be6817.png)
 
-## Contributing
+* Check-out
+![Screenshot (843)](https://user-images.githubusercontent.com/92219304/229952631-2efc4af6-5a11-4bc1-8636-55a4490809e1.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
